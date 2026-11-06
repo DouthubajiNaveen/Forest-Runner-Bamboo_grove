@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d315a8a3267f454bac7089e61917d0d, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  levelIndex: 4
+  levelName: 'Mystic Bamboo Forest'
+  description: 'Moonlit night with glowing plants. Maximum difficulty.'
+  difficulty: 5
+  distanceToUnlockNext: 0
+  baseSpeed: 23
+  maxSpeed: 40
+  acceleration: 0.2
+  obstacleChance: 0.68
+  coinChance: 0.9
+  wLog: 2
+  wRock: 2
+  wBarricade: 2
+  wHanging: 2
+  wPit: 2
+  wRiver: 1.6
+  wSpike: 2
+  wBoulder: 1.6
+  wTempleWall: 1.8
+  wTempleGate: 1.6
+  bambooPerSide: 11
+  templeChance: 0.15
+  vineArchChance: 0.45
+  hasWaterfall: 1
+  night: 1
+  glowPlants: 1
+  skyTop: {r: 0.015, g: 0.025, b: 0.1, a: 1}
+  skyHorizon: {r: 0.1, g: 0.15, b: 0.34, a: 1}
+  fogColor: {r: 0.07, g: 0.11, b: 0.24, a: 1}
+  fogDensity: 0.02
+  ambientColor: {r: 0.14, g: 0.18, b: 0.34, a: 1}
+  lightColor: {r: 0.48, g: 0.58, b: 1, a: 1}
+  lightIntensity: 0.55
+  sunPitch: 38
+  sunYaw: 165
+  pathColor: {r: 0.24, g: 0.24, b: 0.34, a: 1}
+  grassColor: {r: 0.07, g: 0.2, b: 0.22, a: 1}
+  bambooColor: {r: 0.17, g: 0.42, b: 0.38, a: 1}
+  leafColor: {r: 0.12, g: 0.46, b: 0.42, a: 1}
+  stoneColor: {r: 0.3, g: 0.32, b: 0.42, a: 1}
+  waterColor: {r: 0.1, g: 0.25, b: 0.5, a: 0.8}
+  glowColor: {r: 0.3, g: 1, b: 0.85, a: 1}

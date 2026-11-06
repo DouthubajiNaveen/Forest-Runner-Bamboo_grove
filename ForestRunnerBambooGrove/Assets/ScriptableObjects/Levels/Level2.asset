@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d315a8a3267f454bac7089e61917d0d, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  levelIndex: 1
+  levelName: 'Deep Bamboo Forest'
+  description: 'Dense, misty bamboo. More obstacles, higher speed and richer coin trails.'
+  difficulty: 2
+  distanceToUnlockNext: 1200
+  baseSpeed: 17
+  maxSpeed: 30
+  acceleration: 0.12
+  obstacleChance: 0.52
+  coinChance: 0.85
+  wLog: 3
+  wRock: 2.5
+  wBarricade: 2.5
+  wHanging: 2
+  wPit: 1.5
+  wRiver: 0
+  wSpike: 1
+  wBoulder: 0
+  wTempleWall: 0
+  wTempleGate: 0
+  bambooPerSide: 13
+  templeChance: 0.06
+  vineArchChance: 0.45
+  hasWaterfall: 0
+  night: 0
+  glowPlants: 0
+  skyTop: {r: 0.18, g: 0.42, b: 0.52, a: 1}
+  skyHorizon: {r: 0.55, g: 0.74, b: 0.66, a: 1}
+  fogColor: {r: 0.45, g: 0.64, b: 0.56, a: 1}
+  fogDensity: 0.022
+  ambientColor: {r: 0.32, g: 0.46, b: 0.4, a: 1}
+  lightColor: {r: 0.88, g: 1, b: 0.8, a: 1}
+  lightIntensity: 0.95
+  sunPitch: 55
+  sunYaw: 160
+  pathColor: {r: 0.46, g: 0.39, b: 0.28, a: 1}
+  grassColor: {r: 0.16, g: 0.4, b: 0.15, a: 1}
+  bambooColor: {r: 0.3, g: 0.62, b: 0.2, a: 1}
+  leafColor: {r: 0.2, g: 0.52, b: 0.18, a: 1}
+  stoneColor: {r: 0.42, g: 0.46, b: 0.42, a: 1}
+  waterColor: {r: 0.15, g: 0.45, b: 0.55, a: 0.75}
+  glowColor: {r: 0.5, g: 1, b: 0.6, a: 1}
